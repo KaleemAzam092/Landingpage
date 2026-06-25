@@ -457,35 +457,3 @@ footer {
 .footer-bottom-links a:hover {
   color: #4caf50;
 }
-
-/* ── RESPONSIVE ── */
-@media (max-width: 900px) {
-  footer {
-    padding: 48px 32px 0;
-  }
-
-  .footer-top {
-    grid-template-columns: 1fr 1fr;
-    gap: 36px;
-  }
-
-  .footer-brand {
-    grid-column: 1 / -1;
-  }
-}
-
-@media (max-width: 560px) {
-  footer {
-    padding: 40px 20px 0;
-  }
-
-  .footer-top {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-  }
-}
